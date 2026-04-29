@@ -1,0 +1,14 @@
+public class InterestCalculator {
+public double calculateSimpleInterest 
+{
+double principal, double rate. double time) {
+return (principal * rate * time) / 100;
+
+}
+
+public static void main(String[] args) {
+InterestCalculator simpleInterest = new InterestCalculator();
+double si = simpleInterest.calculateSimpleSimpleInterest(1000 , 5 , 2);
+system.out.println("Simple Interest: " + si);
+}
+}
