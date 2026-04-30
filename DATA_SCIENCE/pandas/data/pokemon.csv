@@ -1,0 +1,22 @@
+import pandas as pd
+
+data = [
+    [1, "Bulbasaur", "Grass", "Poison", 45, 49, 49, 45],
+    [2, "Ivysaur", "Grass", "Poison", 60, 62, 63, 60],
+    [3, "Venusaur", "Grass", "Poison", 80, 82, 83, 80],
+    [4, "Charmander", "Fire", None, 39, 52, 43, 65],
+    [5, "Charmeleon", "Fire", None, 58, 64, 58, 80],
+    [6, "Charizard", "Fire", "Flying", 78, 84, 78, 100],
+    [7, "Squirtle", "Water", None, 44, 48, 65, 43],
+    [8, "Wartortle", "Water", None, 59, 63, 80, 58],
+    [9, "Blastoise", "Water", None, 79, 83, 100, 78]
+]
+
+columns = ["id", "name", "type1", "type2", "hp", "attack", "defense", "speed"]
+
+df = pd.DataFrame(data, columns=columns)
+
+# create CSV file
+df.to_csv("pokemon.csv", index=False)
+
+print("pokemon.csv created successfully!")
