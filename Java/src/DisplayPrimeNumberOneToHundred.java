@@ -22,6 +22,6 @@ public class DisplayPrimeNumberOneToHundred {
     }
 
     public static void main(String[] args) {
-        generateprimeNumber(100);  // ✅ just this
+        generateprimeNumber(100);
     }
 }

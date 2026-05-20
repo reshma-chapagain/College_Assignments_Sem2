@@ -8,12 +8,12 @@ public class Arraymerge {
 
         for (int i = 0; i < merged.length; i++) {
 
-            // If first array still has elements
+
             if (i < array1.length) {
                 merged[i] = array1[i];
             }
 
-            // After first array finishes, add second array
+
             else {
                 merged[i] = array2[i - array1.length];
             }
@@ -22,7 +22,7 @@ public class Arraymerge {
         System.out.print("Merged Array: ");
 
         for (int i = 0; i < merged.length; i++) {
-            System.out.print(merged[i] + " ");
+            System.out.print(merged[i]);
         }
     }
 }
