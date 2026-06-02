@@ -1,7 +1,12 @@
 public class constructor {
     int n;
+
+    public constructor() {
+        n = 10;
+    }
+
     public constructor(int i) {
-        this.n = 10;
+        n = i;
     }
 
     public static void main(String[] args) {
