@@ -51,9 +51,9 @@ int main() {
     push(20);
     push(30); 
 
-
+    
     pop();
-   display();
+    display();
 
     return 0;
 
