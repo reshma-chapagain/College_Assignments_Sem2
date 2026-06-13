@@ -1,6 +1,6 @@
-package javapoint;
+package Chapter3.javapoint;
 
-import uniglobe.*;
+import Chapter3.uniglobe.*;
 
 public class A {
 

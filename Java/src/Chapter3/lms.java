@@ -1,4 +1,4 @@
-package Chapter3;//Make four different classes for library management system.
+/*package Chapter3;//Make four different classes for library management system.
 
 public class lms {
     public class student {
@@ -17,3 +17,4 @@ public class lms {
         int teachername;
     }
 }
+*/
