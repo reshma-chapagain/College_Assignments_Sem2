@@ -1,6 +1,8 @@
-/*package Unit4;
+package MidTermRevision.for_protected;
 
-public class Animal {
+
+
+    class Animal {
         // protected method
         protected  Integer leg;
 
@@ -22,6 +24,4 @@ public class Animal {
 
         }
     }
-
- */
 
