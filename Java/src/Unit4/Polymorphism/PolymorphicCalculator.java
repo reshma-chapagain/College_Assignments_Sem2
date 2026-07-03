@@ -1,4 +1,4 @@
-package Polymorphism;
+package Unit4.Polymorphism;
 
 public class PolymorphicCalculator {
     int add (int a, int b) {
@@ -13,6 +13,6 @@ public class PolymorphicCalculator {
     public static void main(String[] args) {
         PolymorphicCalculator calc = new PolymorphicCalculator();
         System.out.println(calc.add(10, 20));
-        System.out.println(calc.add(10.2, 20.3));
+        System.out.println(calc.add(10.2f, 20.3f));
     }
 }
